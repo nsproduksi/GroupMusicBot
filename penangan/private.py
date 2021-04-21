@@ -9,27 +9,27 @@ from helpers.filters import other_filters2
 async def start(_, message: Message):
     await message.reply_sticker("CAACAgQAAx0CTv65QgABBfJlYF6VCrGMm6OJ23AxHmD6qUSWESsAAhoQAAKm8XEeD5nrjz5IJFYeBA")
     await message.reply_text(
-        f"""**Hey, I'm {bn} 🎵
+        f"""**Hai Saya {bn} 🎵
 
-I can play music in your group's voice call. Developed by [Uvindu Bro 🇱🇰](https://t.me/Uvindu_Bro).
+Saya bisa memutar musik di panggilan suara grup Anda. Dikembangkan oleh [ɢᴏᴏᴅ ʙᴏʏs](https://t.me/GB_03101999).
 
-Add me to your group and play music freely!**
+Tambahkan saya ke grup Anda dan mainkan musik dengan bebas!**
         """,
         reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "📦 Source Code 🛠", url="https://github.com/UvinduBro/GroupMusicBot")
+                        "📝 Daftar perintah bot 📝", url="https://telegra.ph/%C9%A2%CA%99--%E1%B4%8D%E1%B4%9Cs%C9%AA%E1%B4%84-%E1%B4%98%CA%9F%E1%B4%80%CA%8F%E1%B4%87%CA%80-04-21-2")
                   ],[
                     InlineKeyboardButton(
-                        "🔥 Group", url="https://t.me/UvinduBr"
+                        "👮🏻‍♀Assistant bot", url="https://t.me/GB_Assistant"
                     ),
                     InlineKeyboardButton(
-                        "🔊 Channel", url="https://t.me/UvinduBro"
+                        "👑 Pemilik bot", url="https://t.me/GB_03101999"
                     )
                 ],[ 
                     InlineKeyboardButton(
-                        "➕ Add To Your Group ➕", url="https://t.me/UBGroupMusicPlayerBot?startgroup=true"
+                        "➕ Tambahkan ke group ➕", url="https://t.me/GB_VcMusicBot?startgroup=true"
                     )]
             ]
         ),
@@ -43,10 +43,9 @@ async def gstart(_, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "🔊 Channel", url="https://t.me/UvinduBro")
+                        "👑 Pemilik bot", url="https://t.me/GB_03101999")
                 ]
             ]
         )
    )
-
 
